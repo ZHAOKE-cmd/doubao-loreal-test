@@ -1,0 +1,55 @@
+{
+  "total": 16,
+  "valid": 16,
+  "errors": 0,
+  "hits": 2,
+  "hitRate": 0.125,
+  "perQuestion": [
+    {
+      "questionId": "q1",
+      "runs": 5,
+      "valid": 5,
+      "errors": 0,
+      "hits": 1,
+      "hitRate": 0.2,
+      "question": "我28岁，混油皮，T区爱出油，夏天想找一款持妆8小时以上、不闷痘的粉底液，预算300元左右，能推荐几个具体品牌和型号吗？"
+    },
+    {
+      "questionId": "q2",
+      "runs": 6,
+      "valid": 6,
+      "errors": 0,
+      "hits": 1,
+      "hitRate": 0.16666666666666666,
+      "question": "刚毕业入职，想配一套适合通勤的化妆品（底妆+口红+眼影），预算800元以内，希望显得专业又不老气，推荐什么品牌和单品？"
+    },
+    {
+      "questionId": "q3",
+      "runs": 5,
+      "valid": 5,
+      "errors": 0,
+      "hits": 0,
+      "hitRate": 0,
+      "question": "我是敏感肌，最近屏障受损有点泛红，想买一瓶温和不刺激的卸妆油和一支氨基酸洁面，预算200元，求推荐品牌和成分注意事项。"
+    },
+    {
+      "questionId": "q4",
+      "runs": 0,
+      "valid": 0,
+      "errors": 0,
+      "hits": 0,
+      "hitRate": 0,
+      "question": ""
+    },
+    {
+      "questionId": "q5",
+      "runs": 0,
+      "valid": 0,
+      "errors": 0,
+      "hits": 0,
+      "hitRate": 0,
+      "question": ""
+    }
+  ],
+  "errorsDetail": []
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Doubao brand test",
+    "description": "Drives a browser through BrowserSkill to ask Doubao five long-tail cosmetics questions six times each (30 total), record every reply, and check whether the answer recommends L'Oréal. The left-sidebar panel shows progress, hit rate, and replies, and exports CSV; the doubao_loreal_test agent tool exposes the same matrix and can resume a stopped JSONL run. Sign in to Doubao in the browser first."
+  }
+}

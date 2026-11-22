@@ -1,0 +1,15 @@
+- insert:
+    - id: doubao-loreal-test
+      name: dsh-doubao-loreal-test
+      config:
+        bskPath: bsk
+        browserName: 测试抖音链接
+        daemonUrl: "ws://127.0.0.1:52800"
+        chatUrl: "https://www.doubao.com/chat/"
+        targetBrand: 欧莱雅
+        runsPerQuestion: 6
+        pollMs: 2500
+        replyTimeoutMs: 180000
+        betweenRunsMs: 3000
+        stableReads: 4
+        recordDir: ""

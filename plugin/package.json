@@ -1,0 +1,31 @@
+{
+  "name": "dsh-doubao-loreal-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tests Doubao with long-tail cosmetics questions through BrowserSkill and records whether L'Oréal is recommended.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "test"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-layout"]
+    }
+  }
+}
